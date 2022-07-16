@@ -1,0 +1,6 @@
+.gallery__picture-info {
+  display: flex;
+  justify-content: space-between;
+  max-width: 246px;
+  margin: 25px auto;
+}

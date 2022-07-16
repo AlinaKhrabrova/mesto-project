@@ -1,0 +1,9 @@
+.gallery__picture {
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+  align-self: center;
+  background-color: #fff;
+  width: 282px;
+  border-radius: 10px;
+}
