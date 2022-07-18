@@ -1,5 +1,5 @@
-@import url(../vendor/normalize.css);
-@import url(../vendor/fonts/fonts.css);
+@import url(../../mesto-project/vendor/normalize.css);
+@import url(../../mesto-project/vendor/fonts/fonts.css);
 
 /*header*/
 @import url(../blocks/header/header.css);
