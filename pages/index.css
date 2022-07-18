@@ -6,7 +6,7 @@
 @import url(../blocks/header/__logo/header__logo.css);
 
 /*page*/
-@import url(/blocks/page/page.css);
+@import url(../blocks/page/page.css);
 
 /*gallery*/
 @import url(../blocks/gallery/gallery.css);
