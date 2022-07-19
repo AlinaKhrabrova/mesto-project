@@ -4,10 +4,10 @@
   color: black;
   font-size: 24px;
   line-height: 29px;
-  margin-top: 0;
-  margin-bottom: 40px;
+  margin: 0;
+  margin-bottom: 48px;
   white-space: nowrap;
-  text-align: left;
+  align-self: flex-start;
 }
 
 @media screen and (max-width: 1230px) {
