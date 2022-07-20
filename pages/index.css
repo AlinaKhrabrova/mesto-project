@@ -11,7 +11,6 @@
 /*gallery*/
 @import url(../blocks/gallery/gallery.css);
 @import url(../blocks/gallery/__image/gallery__image.css);
-@import url(../blocks/gallery/__like-field/gallery__like-field.css);
 @import url(../blocks/gallery/__like/gallery__like.css);
 @import url(../blocks/gallery/__picture-info/gallery__picture-info.css);
 @import url(../blocks/gallery/__picture/gallery__picture.css);
@@ -22,13 +21,11 @@
 @import url(../blocks/profile/__name/profile__name.css);
 @import url(../blocks/profile/__info/profile__info.css);
 @import url(../blocks/profile/__edit-button/profile__edit-button.css);
-@import url(../blocks/profile/__edit-avatar/profile__edit-avatar.css);
 @import url(../blocks/profile/__avatar/profile__avatar.css);
 @import url(../blocks/profile/__add-button/profile__add-button.css);
 
 /*popup*/
 @import url(../blocks/popup/popup.css);
-@import url(../blocks/popup/_opened/popup_opened.css);
 @import url(../blocks/popup/__title/popup__title.css);
 @import url(../blocks/popup/__send-button/popup__send-button.css);
 @import url(../blocks/popup/__form/popup__form.css);

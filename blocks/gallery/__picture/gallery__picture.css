@@ -1,6 +1,5 @@
 .gallery__picture {
   overflow: hidden;
-  position: relative;
   box-sizing: border-box;
   align-self: center;
   background-color: #fff;

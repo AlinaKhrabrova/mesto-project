@@ -12,3 +12,23 @@
     margin-bottom: 22.25px;
   }
 }
+
+.profile__avatar::before {
+  background-repeat: no-repeat;
+  content: "";
+  height: 127.5px;
+  width: 127.5px;
+  background-color: transparent;
+  border-radius: 50%;
+  opacity: 1;
+  margin: 0;
+  z-index: 3;
+  transition: all 0.5s ease;
+  visibility: hidden;
+}
+
+.profile__avatar:hover::before {
+  visibility: visible;
+  background-color: black;
+  opacity: 0.8;
+}

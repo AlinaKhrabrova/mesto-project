@@ -16,13 +16,11 @@
     <!--profile start-->
     <main>
       <section class="profile">
-        <div class="profile__edit-avatar">
-          <img
+        <img
           src="./images/kysto (3).jpg"
-            alt="Аватарка"
-            class="profile__avatar"
-          />
-        </div>
+          alt="Аватарка"
+          class="profile__avatar"
+        />
         <div class="profile__info">
           <h1 class="profile__name">Жак-Ив Кусто</h1>
           <button
@@ -46,40 +44,37 @@
           <img
             src="./images/stockholm.png"
             alt="Стокгольм"
-            class="gallery__image">
+            class="gallery__image"
+          />
           <div class="gallery__picture-info">
             <h2 class="gallery__title">Стокгольм</h2>
-            <div class="gallery__like-field">
-              <button type="button" class="gallery__like"></button>
-            </div>
+            <button type="button" class="gallery__like"></button>
           </div>
         </div>
         <div class="gallery__picture">
-          <img src="./images/keln.jpg" alt="Кёльн" class="gallery__image">
+          <img src="./images/keln.jpg" alt="Кёльн" class="gallery__image" />
           <div class="gallery__picture-info">
             <h2 class="gallery__title">Кёльн</h2>
-            <div class="gallery__like-field">
-              <button type="button" class="gallery__like"></button>
-            </div>
+            <button type="button" class="gallery__like"></button>
           </div>
         </div>
         <div class="gallery__picture">
-          <img src="./images/Barselona.jpg" alt="Барселона" class="gallery__image">
+          <img
+            src="./images/Barselona.jpg"
+            alt="Барселона"
+            class="gallery__image"
+          />
           <div class="gallery__picture-info">
             <h2 class="gallery__title">Барселона</h2>
-            <div class="gallery__like-field">
-              <button type="button" class="gallery__like"></button>
-            </div>
+            <button type="button" class="gallery__like"></button>
           </div>
         </div>
 
         <div class="gallery__picture">
-          <img src="./images/paris.jpg" alt="Париж" class="gallery__image">
+          <img src="./images/paris.jpg" alt="Париж" class="gallery__image" />
           <div class="gallery__picture-info">
             <h2 class="gallery__title">Париж</h2>
-            <div class="gallery__like-field">
-              <button type="button" class="gallery__like"></button>
-            </div>
+            <button type="button" class="gallery__like"></button>
           </div>
         </div>
         <div class="gallery__picture">
@@ -90,21 +85,18 @@
           />
           <div class="gallery__picture-info">
             <h2 class="gallery__title">Нью-Йорк</h2>
-            <div class="gallery__like-field">
-              <button type="button" class="gallery__like"></button>
-            </div>
+            <button type="button" class="gallery__like"></button>
           </div>
         </div>
         <div class="gallery__picture">
           <img
             src="./images/budapesht.jpg"
             alt="Будапешт"
-            class="gallery__image">
+            class="gallery__image"
+          />
           <div class="gallery__picture-info">
             <h2 class="gallery__title">Будапешт</h2>
-            <div class="gallery__like-field">
-              <button type="button" class="gallery__like"></button>
-            </div>
+            <button type="button" class="gallery__like"></button>
           </div>
         </div>
       </section>
@@ -124,6 +116,7 @@
               <fieldset class="popup__edit-profile">
                 <label>
                   <input
+                    id="user-name"
                     type="text"
                     name="user-name"
                     class="popup__field"
@@ -132,6 +125,7 @@
                 </label>
                 <label>
                   <input
+                    id="user-name"
                     type="text"
                     name="user-occupation"
                     class="popup__field"
@@ -139,40 +133,9 @@
                   />
                 </label>
               </fieldset>
-              <button type="submit" class="popup__send-button">Сохранить</button>
-            </form>
-          </div>
-        </div>
-      </div>
-      <div class="popup popup_opened">
-        <div class="popup__container">
-          <button
-            aria-label="Закрыть"
-            type="button"
-            class="popup__close-icon"
-          ></button>
-          <div class="popup__content">
-            <h2 class="popup__title">Редактировать профиль</h2>
-            <form name="user-data" class="popup__form">
-              <fieldset class="popup__edit-profile">
-                <label>
-                  <input
-                    type="text"
-                    name="user-name"
-                    class="popup__field popup__field_decoration"
-                    value="Жак-Ив-Кусто"
-                  />
-                </label>
-                <label>
-                  <input
-                    type="text"
-                    name="user-occupation"
-                    class="popup__field popup__field_decoration"
-                    value="Исследователь океана"
-                  />
-                </label>
-              </fieldset>
-              <button type="submit" class="popup__send-button">Сохранить</button>
+              <button type="submit" class="popup__send-button">
+                Сохранить
+              </button>
             </form>
           </div>
         </div>

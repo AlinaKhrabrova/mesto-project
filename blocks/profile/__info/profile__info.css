@@ -6,3 +6,10 @@
   display: grid;
   max-width: 336px;
 }
+
+@media screen and (max-width: 1051px) {
+  .profile__info {
+    grid-area: profile__info;
+    grid-gap: 14px 10px;
+  }
+}

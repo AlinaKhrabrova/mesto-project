@@ -12,8 +12,8 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-areas:
-    "profile__info"
-    "profile__avatar"
-    "profile__add-button";
+      "profile__info"
+      "profile__avatar"
+      "profile__add-button";
   }
 }

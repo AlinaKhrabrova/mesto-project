@@ -1,6 +1,6 @@
 .gallery__like {
   background-image: url(../../../images/heart.svg);
-  background-color: #fff; 
+  background-color: #fff;
   align-self: center;
   transition: opacity 0.3s ease;
   width: 22px;
@@ -8,6 +8,10 @@
   background-size: contain;
   background-repeat: no-repeat;
   border: none;
+  cursor: pointer;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
 }
 
 .gallery__like:hover {
