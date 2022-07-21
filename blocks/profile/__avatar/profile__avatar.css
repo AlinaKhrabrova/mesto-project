@@ -27,8 +27,3 @@
   visibility: hidden;
 }
 
-.profile__avatar:hover::before {
-  visibility: visible;
-  background-color: black;
-  opacity: 0.8;
-}
