@@ -9,11 +9,11 @@
   .profile {
     justify-items: center;
     min-width: 282px;
-    display: grid;
     grid-template-columns: 1fr;
+    display: grid;
     grid-template-areas:
-      "profile__info"
       "profile__avatar"
+      "profile__info"
       "profile__add-button";
   }
 }

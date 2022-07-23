@@ -11,6 +11,7 @@
   margin-left: auto;
   transition: opacity 0.3s ease;
   width: 150px;
+  padding: 0;
 }
 
 @media screen and (max-width: 1051px) {
@@ -20,14 +21,6 @@
     margin: 0 auto;
     max-width: 282px;
     width: 100%;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .profile__add-button {
-    margin: 22px 0 0;
-    width: 282px;
-    background-size: 16px 16px;
   }
 }
 
